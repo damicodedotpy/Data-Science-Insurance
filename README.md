@@ -57,7 +57,7 @@ This notebook analyzes a single database containing information about insurance 
 <ol>
     <li>
         <p>
-            Younger clients are more likely to file a claim.
+            Younger clients are more likely to file a fraud claim.
         </p>
     </li>
     <li>
