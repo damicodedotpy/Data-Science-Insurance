@@ -67,7 +67,7 @@ This notebook analyzes a single database containing information about insurance 
     </li>
     <li>
         <p>
-            Clients with less months as customers are more likely to file a claim.
+            Clients with less months as customers are more likely to file a fraudulent claim.
         </p>
     </li>
     <li>
