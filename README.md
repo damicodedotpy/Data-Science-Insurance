@@ -77,7 +77,7 @@ This notebook analyzes a single database containing information about insurance 
     </li>
     <li>
         <p>
-            Client with poor education levels are more likely to file a claim.
+            Clients with poor education levels are more likely to file a fraudulent claim.
         </p>
     </li>
 </ol>
