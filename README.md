@@ -85,7 +85,7 @@ This notebook analyzes a single database containing information about insurance 
 <h1>Models Purpose</h1>
 <ol>
     <li>Fraud detection.</li>
-    <li>Loss prediction.</li>
+    <li>Loss amount prediction.</li>
     <li>Dangerous client identification.</li>
 </ol>
 
@@ -110,8 +110,7 @@ This notebook analyzes a single database containing information about insurance 
             <li>Encoding data</li>
             <li>Outliers</li>
             <li>Standardizing data</li>
-            <li>Principal features recognition</li>
-            <li>Splitting data</li>
+             <li>Splitting data</li>
             <li>Dimensionality reduction</li>
         </ol>
     </li>
