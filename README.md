@@ -57,7 +57,7 @@ This notebook analyzes a single database containing information about insurance 
 <ol>
     <li>
         <p>
-            Younger clients are more likely to file a claim.
+            Younger clients are more likely to file a fraud claim.
         </p>
     </li>
     <li>
@@ -67,7 +67,7 @@ This notebook analyzes a single database containing information about insurance 
     </li>
     <li>
         <p>
-            Clients with less months as customers are more likely to file a claim.
+            Clients with less months as customers are more likely to file a fraudulent claim.
         </p>
     </li>
     <li>
@@ -77,7 +77,7 @@ This notebook analyzes a single database containing information about insurance 
     </li>
     <li>
         <p>
-            Client with poor education levels are more likely to file a claim.
+            Clients with poor education levels are more likely to file a fraudulent claim.
         </p>
     </li>
 </ol>
@@ -85,7 +85,7 @@ This notebook analyzes a single database containing information about insurance 
 <h1>Models Purpose</h1>
 <ol>
     <li>Fraud detection.</li>
-    <li>Loss prediction.</li>
+    <li>Loss amount prediction.</li>
     <li>Dangerous client identification.</li>
 </ol>
 
@@ -95,6 +95,8 @@ This notebook analyzes a single database containing information about insurance 
     <li>Loading and analyzing the dataset structure.
         <ol>
             <li>Imports</li>
+            <li>Functions</li>
+            <li>Constants</li>
             <li>Data load</li>
         </ol>
     </li>
@@ -120,8 +122,6 @@ This notebook analyzes a single database containing information about insurance 
             <li>Logistic Regression Model
             <li>Decision Tree Model
             <li>Random Forest Model
-            <li>SVM Model
-            <li>K-NN Model
         </ol>
     </li>
     <li>Evaluation
@@ -135,17 +135,3 @@ This notebook analyzes a single database containing information about insurance 
     <li>Making predictions</li>
     <li>Drawing conclusions</li>
 </ol>
-
-
-<!-- * Outliers: Primero, identificamos y tratamos valores atípicos, ya que pueden afectar la calidad de los datos y el rendimiento del modelo.
-* Estandarización: Normalizamos las características para que tengan una escala comparable, especialmente si el modelo es sensible a la escala (como SVM o regresión logística).
-* Principal Features: Seleccionamos las características más relevantes antes de reducir la dimensionalidad.
-* Splitting the data: Dividimos los datos en entrenamiento, validación y prueba. Hacerlo antes podría causar "data leakage" si la reducción de dimensionalidad se basa en información de todo el conjunto.
-* Reducción de dimensionalidad: Aplicamos técnicas como PCA para disminuir la cantidad de variables sin perder información clave y mejorar la eficiencia del modelo.
-* Model development: Entrenamos nuestro modelo con los datos preprocesados.
-* Evaluation: Evaluamos su rendimiento con métricas adecuadas.
-* Making predictions: Aplicamos el modelo para hacer predicciones en nuevos datos.
-* Drawing conclusions: Interpretamos los resultados y extraemos insights para la toma de decisiones. -->
-
-
-
