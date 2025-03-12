@@ -95,6 +95,8 @@ This notebook analyzes a single database containing information about insurance 
     <li>Loading and analyzing the dataset structure.
         <ol>
             <li>Imports</li>
+            <li>Functions</li>
+            <li>Constants</li>
             <li>Data load</li>
         </ol>
     </li>
@@ -110,7 +112,8 @@ This notebook analyzes a single database containing information about insurance 
             <li>Encoding data</li>
             <li>Outliers</li>
             <li>Standardizing data</li>
-             <li>Splitting data</li>
+            <li>Principal features recognition</li>
+            <li>Splitting data</li>
             <li>Dimensionality reduction</li>
         </ol>
     </li>
@@ -119,8 +122,6 @@ This notebook analyzes a single database containing information about insurance 
             <li>Logistic Regression Model
             <li>Decision Tree Model
             <li>Random Forest Model
-            <li>SVM Model
-            <li>K-NN Model
         </ol>
     </li>
     <li>Evaluation
@@ -134,17 +135,3 @@ This notebook analyzes a single database containing information about insurance 
     <li>Making predictions</li>
     <li>Drawing conclusions</li>
 </ol>
-
-
-<!-- * Outliers: Primero, identificamos y tratamos valores atípicos, ya que pueden afectar la calidad de los datos y el rendimiento del modelo.
-* Estandarización: Normalizamos las características para que tengan una escala comparable, especialmente si el modelo es sensible a la escala (como SVM o regresión logística).
-* Principal Features: Seleccionamos las características más relevantes antes de reducir la dimensionalidad.
-* Splitting the data: Dividimos los datos en entrenamiento, validación y prueba. Hacerlo antes podría causar "data leakage" si la reducción de dimensionalidad se basa en información de todo el conjunto.
-* Reducción de dimensionalidad: Aplicamos técnicas como PCA para disminuir la cantidad de variables sin perder información clave y mejorar la eficiencia del modelo.
-* Model development: Entrenamos nuestro modelo con los datos preprocesados.
-* Evaluation: Evaluamos su rendimiento con métricas adecuadas.
-* Making predictions: Aplicamos el modelo para hacer predicciones en nuevos datos.
-* Drawing conclusions: Interpretamos los resultados y extraemos insights para la toma de decisiones. -->
-
-
-
